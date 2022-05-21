@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Patriciana;
+    src: url(../d/ofont.ru_Patriciana.ttf);
+  }
+SALON_SERVICES
+{
+background-color: #ffffff;
+width: 50%;
+display: block;
+margin: 0 auto;
+background-color: black;
+}
+MANICURE, BROW, LASH, MAKE, HAIR{
+    display: block;
+    margin: 15px;
+    font-family: Patriciana;
+    color: #ffffff;
+}
+NAME
+{
+color: #ad9282;
+font-size: 20pt;
+font-family: Patriciana;
+}
+
+PRICE,TIME
+{
+    display: inline-block;
+color: #ffffff;
+margin-left: 20pt;
+font-family: Patriciana;
+}

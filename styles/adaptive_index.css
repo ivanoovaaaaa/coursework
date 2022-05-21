@@ -1,0 +1,458 @@
+@media screen and (max-width: 768px) {
+    #menu-checkbox {
+        /* чекбокс скрыт */
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+      }
+      .main-menu {
+        /* пункты меню скрыты */
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        
+      }
+      .main-menu li {
+        /* пункты меню расположены вертикально */
+        /* каждый имеет ширину 100% */
+        font-size: 1em;
+        display: block;
+        width: 100%;
+        background-color: black;
+        margin-top: -5px;
+        height: 85px;
+        
+      }
+      .menu2{
+          left:50%;
+          width: 50%;
+          height: 20px;
+          
+      }
+      .menu1{
+          left:0;
+          width: 50%;
+      }
+      .main-menu a {
+        /* немного стилизуем ссылки */
+        display: block;
+        color: lightslategray;
+        padding: .5em;
+        text-decoration: none;
+
+      }
+      .main-menu a:hover {
+        text-decoration: underline;
+      }
+      .toggle-button {
+        text-align: center;
+        display: block;
+        /* не забываем явно указать каким должен быть курсор */
+        cursor: pointer;
+        background-color: transparent;
+        color: #fff;
+        left:0;
+        width: 18%;
+      }
+      .toggle-button:after {
+        /* получаем данные из атрибута data-open в html */
+        content: attr(data-open);
+        display: block;
+        margin: 10px 0;
+        padding: 10px 30px;
+      }
+      #menu-checkbox:checked + nav[role="navigation"] .main-menu {
+        /* когда чекбокс активен меню становится видимым */
+        position: static;
+      }
+      #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
+        content: attr(data-close);
+      }
+    
+    header{
+width: 100%;
+height: 30%;
+    }
+    .icon{
+        width: 16%;
+        height: 9%;
+        left:78%;
+        top:6%
+    
+}
+nav .fot{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-size:40px ;
+  font-family: Hachitos;
+  color: white;
+}
+
+.block-one{
+  width: 100%;
+  height: 55%;
+}
+.block{
+  font-size: 10px;
+  margin: 0 auto;
+  width:45%;
+  height: 49%;
+}
+.introduction{
+  margin: 0 auto;
+  width: 35%;
+  height: 80%;
+  background-color: #96816C;
+outline:  solid #96816C 15px;
+border:solid #ffffff 5px;
+font-size: 10px;
+text-align: center;
+}
+.block-two{
+  margin: 0 auto;
+  width: 100%;
+  height: 45%;
+font-size: 15px;
+align-self: center;
+}
+.block-two img{
+  width:65% ;
+  height:80% ;
+}
+
+.section2 div{
+margin:0 auto;
+width: 55%;
+}
+.section2 p{
+  text-align: center;
+  font-size: 30px;
+}
+.section2 img{
+  width: 40%;
+  height: 30%;
+}
+.container2 p{
+  font-size: 10px;
+}
+.container2 h3{
+font-size: 20px;
+}
+.container2 div{
+  width: 40%;
+}
+.section4{
+    width: 100%;
+   
+}
+.portret img{
+  width:65% ;
+  height:80% ;
+  display: block;
+  margin: 0 auto;
+}
+.portret{
+  width: 100%;
+  height: 50%; 
+}
+.about{
+  width: 90%;
+  height: 40%;
+}
+.about h1{
+font-size: 10px;
+text-align: center;
+}
+.about p{
+  font-size: 7px;
+}
+.section5{
+  height: 150%;
+}
+.master div h1, .master div h2{
+  font-size: 7px;
+}
+.master{
+  height: 88%;
+  
+  margin: 0 auto;
+}
+.master div{
+  width:40%;
+  height: 40%;
+}
+.master img{
+  width:100%;
+  height: 50%;
+}
+.master p{
+  font-size: 5px;
+}
+
+.section6 img{
+width:100% ;
+height: 100%;
+}
+.section6 div:nth-child(2){
+  height: 20%;
+  width: 100%;
+}
+.section6 div:nth-child(2) p{
+  width:100%;
+  font-size: 9px;
+  text-align: center;
+}
+.section6 div:nth-child(1){
+  height: 80%;
+  width: 100%;
+}
+.section7 div{
+  width:55%;
+  height: 28%;
+}
+.section7 div img{
+  width: 100%;
+  height: 70%;
+}
+.section7 div p{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.more a{
+  font-size: 15px;
+}
+.section8 h1{
+  font-size: 25px;
+}
+.section8 img{
+  width: 48%;
+}
+.section10{
+  height: 100%;
+}
+.section10 img{
+  width:100% ;
+  height: 100%;
+  }
+  .section10 div:nth-child(1){
+    height: 24%;
+    width: 100%;
+    margin-left:0 ;
+  }
+  .section10 div:nth-child(1) p{
+    width:100%;
+    font-size: 9px;
+    text-align: center;
+  }
+  .section10 div:nth-child(1) h1{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .section10 div:nth-child(2){
+    height: 76%;
+    width: 100%;
+  }
+  footer div p{
+    font-size: 9px;
+    text-align: center;
+  }
+ footer div{
+   margin: 0 auto;
+   height: 20%;
+   width: 55%;
+   margin-bottom: 10px;
+ }
+ footer div:nth-child(1){
+  margin: 0 auto;
+  height: 40%;
+  font-size: 5px;
+  margin-bottom: 10px;
+ }
+ footer div:nth-child(1) p{
+   font-size: 9px;
+ }
+ footer div h1{
+   font-size: 16px;
+   margin-bottom: 3%;
+   text-align: center;
+ }
+ footer div:nth-child(1) .fot{
+   font-size: 28px;
+   margin-top: 5px;
+ }
+ footer div:nth-child(1) .social{
+   left: 50%;
+   width: 20%;
+ }
+}
+@media (min-width: 768px) and (max-width: 1195px) {
+  .toggle-button {
+      /* label скрыт */
+      position: absolute;
+      clip: rect(1px, 1px, 1px, 1px);
+    }
+    .block-one{
+      width: 100%;
+      height: 55%;
+    }
+    .block{
+      font-size: 10px;
+      margin: 0 auto;
+      width:45%;
+      height: 49%;
+    }
+    .introduction{
+      margin: 0 auto;
+      width: 35%;
+      height: 80%;
+      background-color: #96816C;
+    outline:  solid #96816C 15px;
+    border:solid #ffffff 5px;
+    font-size: 10px;
+    text-align: center;
+    }
+    .block-two{
+      margin: 0 auto;
+      width: 100%;
+      height: 45%;
+    font-size: 15px;
+    align-self: center;
+    }
+    .block-two img{
+      width:65% ;
+      height:80% ;
+    }
+    .section4{
+      flex-wrap: nowrap;
+    }
+  
+  .section4{
+    width: 100%;
+   
+}
+.portret img{
+  width:72% ;
+  height:100% ;
+  display: block;
+  margin: 0 auto;
+}
+.portret{
+  width: 60%;
+  height: 99%; 
+}
+.about{
+  width: 40%;
+}
+.about h1{
+font-size: 18px;
+text-align: center;
+margin-top: 2px;
+}
+.about p{
+  font-size: 12px;
+  text-align: center;
+}
+
+.section6 img{
+width:100% ;
+height: 100%;
+}  
+.container2 p{
+  font-size: 15px;
+}
+.container2 h3{
+font-size: 25px;
+}
+.container2 div{
+  width: 26%;
+}  
+.section6 div:nth-child(2){
+  height: 20%;
+  width: 40%;
+  align-items: center;
+}
+.section6 div:nth-child(2) p{
+  width:100%;
+  font-size: 9px;
+  text-align: center;
+}
+.section6 div:nth-child(1){
+  height: 100%;
+  width: 60%;
+}
+.section5{
+  height: 150%;
+}
+  
+.master{
+  height: 88%;
+  
+  margin: 0 auto;
+}
+.master div{
+  width:40%;
+  height: 40%;
+}
+.master img{
+  width:100%;
+  height: 50%;
+}
+.master p{
+  font-size: 10px;
+}
+.section10 img{
+  width:100% ;
+  height: 100%;
+  }
+  .section10 div:nth-child(1){
+    height: 20%;
+    width: 40%;
+    margin-left:0 ;
+    align-self: center;
+  }
+  .section10 div:nth-child(1) p{
+    width:100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .section10 div:nth-child(1) h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .section10 div:nth-child(2){
+    height: 100%;
+    width: 60%;
+  }
+ footer p{
+   font-size:10px ;
+ }
+ footer div:nth-child(1) {
+  flex: 0 1 200px;
+ }
+  footer div:nth-child(1) .fot{
+    font-size: 48px;
+    font-family: Hachitos;
+    color: white;
+    margin-bottom: 25px;
+
+  }
+  footer h1{
+  
+    font-size: 20px;
+
+        }
+}
+@media screen and (min-width: 1196px){
+  .toggle-button {
+    /* label скрыт */
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+
+}
+
+   

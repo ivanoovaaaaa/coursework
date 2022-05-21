@@ -1,0 +1,268 @@
+
+$color:white;
+$color2:#64524a;
+$colorA:#96816C;
+$color3:black;
+$color4:#eee;
+$sizeW:350px;
+$fonts:Patriciana;
+$fontsOsn:Hachitos;
+$maxW:100%;
+$min:15px;
+$place:center;
+$num:150px;
+$posit:absolute;
+@font-face {
+    font-family: $fonts;
+    src: url(../d/ofont.ru_$fonts.ttf);
+  }
+  @font-face {
+    font-family: $fontsOsn;
+    src: url(../d/$fontsOsn\ Free.ttf);
+  }
+  @font-face {
+      font-family:Display ;
+      src: url(../d/ofont.ru_Playfair\ Display\ SC.ttf);
+  }
+  @font-face{
+font-family: 'Regular';
+src: url(../d/13885.otf);
+}
+html,body{
+    height: $maxW;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+     .icon{
+      position:$posit;
+      width: 170px;
+      height: 170px;
+      left: 686.59px;
+      top: -2px;
+     }
+     header{
+      height: 180px;
+      width: 1583px;
+      left: 183px;
+      top: -2px;
+      border-radius: 0px;
+      background-color: $color3;
+      
+     }
+     .menu1{
+      position:$posit;
+      width: 600px;
+      height: 20px;
+      left: 105px;
+      top: 50px;
+      color: $color;
+     
+     ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        li ul {
+            background-color: $color;
+          visibility: hidden;
+          opacity: 0;
+          min-width: 5rem;
+          position:$posit;
+          transition: all 0.5s ease;
+          margin-top: 1rem;
+          left: 0;
+          display: none;
+        }
+        li {
+            clear: both;
+            width: $maxW;
+          }
+      }
+      li {
+        color: $color3;
+        display: block;
+        float: left;
+        padding: 1rem;
+        position: relative;
+        text-decoration: none;
+         transition: color 0.5s ease 0s;
+      }
+      a{
+        transition: color 0.5s ease 0s;
+
+      } 
+      li :hover {
+        color: $colorA;
+        cursor: pointer;
+      
+      }
+    }
+     .menu2{
+     position:$posit;
+  width: 600px;
+  height: 20px;
+  left: 950px;
+  top: 50px;
+  color: $color;
+     
+     ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        li ul {
+            background-color: $color;
+          visibility: hidden;
+          opacity: 0;
+          min-width: 5rem;
+          position:$posit;
+          transition: all 0.5s ease;
+          margin-top: 1rem;
+          left: 0;
+          display: none;
+        }
+        li {
+            clear: both;
+            width: $maxW;
+          }
+      }
+      li {
+        color: $color3;
+        display: block;
+        float: left;
+        padding: 1rem;
+        position: relative;
+        text-decoration: none;
+         transition: color 0.5s ease 0s;
+      }
+      a{
+        transition: color 0.5s ease 0s;
+
+      } 
+      li :hover {
+        color: $colorA;
+        cursor: pointer;
+      
+      }
+    }
+     .menu a{
+      text-decoration: none;
+      color: $color;
+     }
+     .sub-menu a{
+      color: $color3;
+     }
+        .menu1 ul li:hover > ul,.menu2 ul li:hover > ul,
+        .menu1 ul li ul:hover,.menu2 ul li ul:hover {
+          visibility: visible;
+          opacity: 1;
+          display: block;
+        }
+        
+        footer{
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            background-color: $color3;
+            h1{
+                color: $color;
+                font-size: 35px;
+                font-family: $fonts;
+                margin-bottom: 50px;
+                    }
+                    p{
+                        color: $color;
+                        font-size: 20px;
+                        font-family: $fonts;
+                            }
+                            div{
+                                align-self: $place;
+                              }
+                              div:nth-child(1) {
+                                flex: 0 1 300px;
+                                .fot{
+                                    font-size: 68px;
+                                    font-family: $fontsOsn;
+                                    color: $color;
+                                    margin-bottom: 25px;
+                              
+                                  }
+                                  p{
+                                    font-size: $min;
+                                    color: $color;
+                                    font-family: $fonts;
+                                        } 
+                                        svg{
+                                            width:$min;
+                                            height: $min;
+                                          }
+                               }
+
+          }
+                 
+a :hover {
+                   fill: $colorA;
+                   cursor: pointer;
+                 
+                 } 
+                
+.zapic{
+    width: $maxW;
+    height: 600px;
+}
+
+ form{
+    background-color: $color3;
+    border-radius: 20px;
+    height: 500px;
+    padding: 20px;
+    width: 700px;
+    margin: 50px auto;
+    display: block;
+ }
+ input {
+    background-color: $color2;
+    border-radius: 12px;
+    border: 0;
+    color: $color4;
+    font-size: 18px;
+    height: $maxW;
+    padding: 4px 20px 0;
+    width: 300px;
+    display: block;
+    margin : 10px auto;
+  }
+  button{
+    background-color: $color2;
+    border-radius: 12px;
+    color: $color4;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    width: $sizeW;
+    display: block;
+    margin : 30px auto;
+    text-align: $place;
+  }
+  textarea{
+    width: $sizeW;
+    height: 150px;
+    display: block;
+    margin : 10px auto;   
+    background-color: $color2;
+    border-radius: 12px;
+    color: $color4;
+    font-size: 18px;
+  }
+  .subtitle{
+      font-size: 20px;
+      font-family: $fonts;
+      color: $color;
+      text-align: $place;
+  }
+h1{
+    color: $color;
+    text-align: $place;
+    font-size: 25px;
+      font-family: $fonts;
+}

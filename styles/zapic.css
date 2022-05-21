@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Patriciana;
+    src: url(../d/ofont.ru_Patriciana.ttf);
+  }
+  @font-face {
+    font-family: Hachitos;
+    src: url(../d/Hachitos\ Free.ttf);
+  }
+  @font-face {
+      font-family:Display ;
+      src: url(../d/ofont.ru_Playfair\ Display\ SC.ttf);
+  }
+  @font-face{
+font-family: 'Regular';
+src: url(../d/13885.otf);
+}
+html,body{
+    height: 100%;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  img{
+    object-fit: cover;
+  }
+     .icon{
+      position: absolute;
+      width: 11%;
+      height:19%;
+      left: 43%;
+      top: 6%;
+     }
+     header{
+      height: 30%;
+      width: 100%;
+      left: 12%;
+      top: -2px;
+      border-radius: 0px;
+      background-color: black;
+      
+     }
+     .menu1{
+      position: absolute;
+      width: 38%;
+      height: 20px;
+      left: 105px;
+      top: 50px;
+      color: white;
+     }
+     .menu2{
+     position: absolute;
+  width: 38%;
+  height: 20px;
+  left: 60%;
+  top: 50px;
+  color: white;
+     }
+     .menu a{
+      text-decoration: none;
+      color: white;
+     }
+     .sub-menu a{
+      color: rgb(0, 0, 0);
+     }
+    .menu1 ul,.menu2  ul {
+          list-style: none;
+          margin: 0;
+          padding-left: 0;
+        }
+        
+        .menu1 li,.menu2 li {
+          color: rgb(0, 0, 0);
+          display: block;
+          float: left;
+          padding: 1rem;
+          position: relative;
+          text-decoration: none;
+           transition: color 0.5s ease 0s;
+        }
+        .menu1  a,.menu2 a{
+          transition: color 0.5s ease 0s;
+  
+        } 
+        
+        .menu1 li :hover, .menu2 li :hover {
+          color: #96816C;
+          cursor: pointer;
+        
+        }
+        
+        .menu1 ul li ul,.menu2 ul li ul {
+            background-color: rgb(255, 255, 255);
+          visibility: hidden;
+          opacity: 0;
+          min-width: 5rem;
+          position: absolute;
+          transition: all 0.5s ease;
+          margin-top: 1rem;
+          left: 0;
+          display: none;
+        }
+        
+        .menu1 ul li:hover > ul,.menu2 ul li:hover > ul,
+        .menu1 ul li ul:hover,.menu2 ul li ul:hover {
+          visibility: visible;
+          opacity: 1;
+          display: block;
+        }
+        
+        .menu1 ul li ul li,.menu2 ul li ul li {
+          clear: both;
+          width: 100%;
+        }
+        footer{
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          background-color: black;
+        }
+        footer div:nth-child(1) {
+         flex: 0 1 300px;
+        }
+         footer div:nth-child(1) .fot{
+           font-size: 68px;
+           font-family: Hachitos;
+           color: white;
+           margin-bottom: 25px;
+     
+         }
+         footer div:nth-child(1) p{
+     font-size: 15px;
+     color: white;
+     font-family: Patriciana;
+         }
+         footer div:nth-child(1) svg{
+           width:15px;
+           height: 15px;
+         }
+         footer div{
+           align-self: center;
+         }
+         footer p{
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     font-family: Patriciana;
+         }
+         footer h1{
+           color: rgb(255, 255, 255);
+           font-size: 35px;
+           font-family: Patriciana;
+           margin-bottom: 50px;
+               }
+                 a{
+                 transition: fill 0.5s ease 0s;
+         
+               } 
+               
+               a :hover {
+                 fill: #96816C;
+                 cursor: pointer;
+               
+               }
+               #menu-checkbox{
+                 display: none;
+               }
+.zapic{
+    width: 100%;
+}
+
+ form{
+    background-color: #000000;
+    border-radius: 20px;
+    height: 90%;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin: 50px auto;
+ }
+ input {
+    background-color: #64524a;
+    border-radius: 12px;
+    border: 0;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    padding: 4px 20px 0;
+    width: 80%;
+    display: block;
+    margin : 10px auto;
+  }
+  button{
+    background-color: #64524a;
+    border-radius: 12px;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    width: 80%;
+    display: block;
+    margin : 30px auto;
+    text-align: center;
+  }
+  textarea{
+    width: 80%;
+    height: 150px;
+    display: block;
+    margin : 10px auto;   
+    background-color: #64524a;
+    border-radius: 12px;
+    color: #eee;
+    font-size: 18px;
+  }
+  .subtitle{
+      font-size: 20px;
+      font-family: Patriciana;
+      color: white;
+      text-align: center;
+  }
+h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+      font-family: Patriciana;
+}
+.price {
+  width: 100%;
+}
+.price p{
+  font-size: 60px;
+  text-align: center;
+  font-family: Patriciana;
+  border: solid rgb(255, 255, 255) 5px;
+  background-color: black;
+  transition: background-color 1s ease 0s;
+  width: 100%;
+}
+.price a{
+  text-decoration: none;
+  color: #eee;
+}
+.price p :hover {
+  background-color: #96816C;
+  cursor: pointer;
+
+}
