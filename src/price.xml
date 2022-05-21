@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../styles/price.css"?>
+<SALON_SERVICES>
+	<MANICURE>
+		<NAME>Комбинированный маникюр</NAME>
+		<PRICE>7 BYN</PRICE>
+		<TIME>30 минут</TIME>
+	</MANICURE>
+	<MANICURE>
+		<NAME>Покрытие ногтей базой</NAME>
+		<PRICE>25 BYN</PRICE>
+		<TIME>90 минут</TIME>
+	</MANICURE>
+	<MANICURE>
+		<NAME>Наращивание ногтей гелем</NAME>
+		<PRICE>40 BYN</PRICE>
+		<TIME>180 минут</TIME>
+	</MANICURE>
+	<MANICURE>
+		<NAME>Педикюр</NAME>
+		<PRICE>25 BYN</PRICE>
+		<TIME>60 минут</TIME>
+	</MANICURE>
+	<MANICURE>
+		<NAME>Педикюр с покрытием</NAME>
+		<PRICE>45 BYN</PRICE>
+		<TIME>120 минут</TIME>
+	</MANICURE>
+    <HAIR>
+    <NAME>Кератин,ботокс</NAME>
+		<PRICE>100-300 BYN</PRICE>
+		<TIME>3-4 часа</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Восстановление структуры волос</NAME>
+		<PRICE>160 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Полировка волос</NAME>
+		<PRICE>79 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Каре</NAME>
+		<PRICE>60 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Стрижка одним срезом</NAME>
+		<PRICE>28 BYN</PRICE>
+		<TIME>60 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Подравнять кончики</NAME>
+		<PRICE>30 BYN</PRICE>
+		<TIME>90 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Однотонное окрашивание</NAME>
+		<PRICE>100-160 BYN</PRICE>
+		<TIME>4 часа</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Мелирование</NAME>
+		<PRICE>140-200 BYN</PRICE>
+		<TIME>4 часа</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Сложное окрашивание</NAME>
+		<PRICE>220-450 BYN</PRICE>
+		<TIME>10 часов</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Тонировка волос</NAME>
+		<PRICE>100 BYN</PRICE>
+		<TIME>1 час</TIME>
+    </HAIR>
+	    <HAIR>
+	<NAME>Окрашивание корней</NAME>
+		<PRICE>100 BYN</PRICE>
+		<TIME>1 час</TIME>
+    </HAIR>
+	    <HAIR>
+	<NAME>Осветление корней</NAME>
+		<PRICE>100 BYN</PRICE>
+		<TIME>1 час</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Локоны</NAME>
+		<PRICE>58 BYN</PRICE>
+		<TIME>90 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Собранные волосы</NAME>
+		<PRICE>60 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </HAIR>
+    <HAIR>
+    <NAME>Сложные прически</NAME>
+		<PRICE>160 BYN</PRICE>
+		<TIME>3 часа</TIME>
+    </HAIR>
+    <MAKE>
+    <NAME>Нюдовый макияж</NAME>
+		<PRICE>50 BYN</PRICE>
+		<TIME>90 минут</TIME>
+    </MAKE>
+   <MAKE>
+    <NAME>Дневной макияж</NAME>
+		<PRICE>70 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </MAKE><MAKE>
+    <NAME>Вечерней макияж</NAME>
+		<PRICE>85 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </MAKE><MAKE>
+    <NAME>Свадебный макияж</NAME>
+		<PRICE>120 BYN</PRICE>
+		<TIME>2 часа</TIME>
+    </MAKE><MAKE>
+    <NAME>Свадебный образ</NAME>
+		<PRICE>240 BYN</PRICE>
+		<TIME>10 часов</TIME>
+    </MAKE><MAKE>
+    <NAME>Тренировочный макияж</NAME>
+		<PRICE>70 BYN</PRICE>
+		<TIME>90 минут</TIME>
+    </MAKE><MAKE>
+    <NAME>Праздничный макияж</NAME>
+		<PRICE>100 BYN</PRICE>
+		<TIME>120 минут</TIME>
+    </MAKE><MAKE>
+    <NAME>Праздничный образ</NAME>
+		<PRICE>140 BYN</PRICE>
+		<TIME>7 часов</TIME>
+    </MAKE>
+	<BROW>
+    <NAME>Коррекция бровей воском</NAME>
+		<PRICE>20 BYN</PRICE>
+		<TIME>20 минут</TIME>
+    </BROW>
+	<BROW>
+    <NAME>Коррекция бровей пинцетом</NAME>
+		<PRICE>15 BYN</PRICE>
+		<TIME>25 минут</TIME>
+    </BROW>
+	<BROW>
+    <NAME>Коррекция бровей нитью</NAME>
+		<PRICE>12 BYN</PRICE>
+		<TIME>15 минут</TIME>
+    </BROW>
+	<BROW>
+    <NAME>Ламинирование бровей с окрашиванием</NAME>
+		<PRICE>50 BYN</PRICE>
+		<TIME>90 минут</TIME>
+    </BROW>
+	<BROW>
+    <NAME>Ламинирование бровей без окрашивания</NAME>
+		<PRICE>30 BYN</PRICE>
+		<TIME>60 минут</TIME>
+    </BROW>
+	<BROW>
+    <NAME>Окрашивание краской</NAME>
+		<PRICE>32 BYN</PRICE>
+		<TIME>60 минут</TIME>
+    </BROW>
+	<BROW>
+    <NAME>Окрашивание хной</NAME>
+		<PRICE>32 BYN</PRICE>
+		<TIME>60 минут</TIME>
+    </BROW>
+	<LASH>
+    <NAME>Наращивание ресниц классика</NAME>
+		<PRICE>45 BYN</PRICE>
+		<TIME>3 часа</TIME>
+    </LASH>
+	<LASH>
+    <NAME>Наращивание ресниц 2D</NAME>
+		<PRICE>55 BYN</PRICE>
+		<TIME>3 часа</TIME>
+    </LASH>
+	<LASH>
+    <NAME>Наращивание ресниц 3D</NAME>
+		<PRICE>65 BYN</PRICE>
+		<TIME>3 часа</TIME>
+    </LASH>
+	<LASH>
+    <NAME>Наращивание ресниц 4D</NAME>
+		<PRICE>75 BYN</PRICE>
+		<TIME>3 часа</TIME>
+    </LASH>
+	<LASH>
+    <NAME>Наращивание ресниц 5D</NAME>
+		<PRICE>85 BYN</PRICE>
+		<TIME>3 часа</TIME>
+    </LASH>
+	<LASH>
+    <NAME>Ламинирование ресниц с окрашиванием</NAME>
+		<PRICE>60 BYN</PRICE>
+		<TIME>90 минут</TIME>
+    </LASH>
+	<LASH>
+    <NAME>Ламинирование ресниц без окрашивания</NAME>
+		<PRICE>45 BYN</PRICE>
+		<TIME>60 минут</TIME>
+    </LASH>
+</SALON_SERVICES>
